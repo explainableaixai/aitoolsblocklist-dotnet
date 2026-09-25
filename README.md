@@ -1,6 +1,6 @@
 # AlphaQuantum.AIToolsBlocklist
 
-.NET client for the [AI tool register with vendor training terms](https://www.aitoolsblocklist.com). Pass it a hostname and it reports whether the host belongs to an AI product, how that product is categorised, and what its terms say about training on customer data. It targets .NET 8 and uses only the base class library, `HttpClient` and `System.Text.Json`.
+.NET client for the AI tool register that helps companies [protect internal AI tools across the enterprise](https://www.aitoolsblocklist.com/enterprise-ai-blocking.php). Pass it a hostname and it reports whether the host belongs to an AI product, how that product is categorised, and what its terms say about training on customer data. It targets .NET 8 and uses only the base class library, `HttpClient` and `System.Text.Json`.
 
 ```bash
 dotnet add package AlphaQuantum.AIToolsBlocklist
@@ -123,7 +123,7 @@ The constructor's `HttpClient` parameter makes stubbing simple. Give it an `Http
 
 ## Knowing what to block first
 
-Rules work better when they start from real usage. To [discover AI apps from resolver exports](https://www.shadowaitools.com), run the log audit before you write policy. If your organisation also runs its own AI agents, give them [page-level limits for agent browsing](https://www.aiagentallowlist.com). And for everything outside AI, [category lists for secure web gateways](https://www.webfilteringdatabase.com) cover the rest of the web.
+Rules work better when they start from real usage. To [detect shadow AI tools that employees use without IT approval](https://www.shadowaitools.com/free-shadow-ai-audit.php), run the log audit before you write policy. If your organisation also runs its own AI agents, give them an [AI agent allow list with page-level limits](https://www.aiagentallowlist.com). And for everything outside AI, [enterprise web security](https://www.webfilteringdatabase.com) categories cover the rest of the web.
 
 ## Same register, other runtimes
 
